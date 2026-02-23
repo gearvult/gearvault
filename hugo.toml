@@ -1,0 +1,70 @@
+baseURL = 'https://gearvault.netlify.app/'
+languageCode = 'en-us'
+title = 'GearVault - Expert Music Gear Reviews'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  env = "production"
+  description = "In-depth reviews, comparisons, and buying guides for musical instruments and pro audio equipment."
+  author = "GearVault"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowFullTextinRSS = true
+  defaultTheme = "auto"
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "GearVault"
+    Content = "Expert music gear reviews, comparisons, and buying guides. We help musicians find the right gear at the right price."
+
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "#"
+
+  [[params.socialIcons]]
+    name = "reddit"
+    url = "#"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "reviews"
+    name = "Reviews"
+    url = "/categories/reviews/"
+    weight = 10
+  [[menu.main]]
+    identifier = "comparisons"
+    name = "Comparisons"
+    url = "/categories/comparisons/"
+    weight = 20
+  [[menu.main]]
+    identifier = "guides"
+    name = "Buying Guides"
+    url = "/categories/guides/"
+    weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
