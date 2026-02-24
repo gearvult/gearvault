@@ -1,26 +1,23 @@
-{{- /* Pinterest Rich Pins + OG Image - multiple fallback methods */ -}}
+{{- /* Pinterest Rich Pins + OG Image + Google Analytics */ -}}
 {{- if .IsPage }}
 
-{{- /* Method 1: Hugo native images param */ -}}
-{{- with .Params.images }}
-{{- range first 1 . }}
-<meta property="og:image" content="{{ . | absURL }}">
-<meta property="og:image:width" content="1000">
-<meta property="og:image:height" content="1500">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ . | absURL }}">
-{{- end }}
-{{- else }}
-{{- /* Method 2: PaperMod cover.image param */ -}}
-{{- with .Params.cover }}
-{{- with .image }}
-<meta property="og:image" content="{{ . | absURL }}">
-<meta property="og:image:width" content="1000">
-<meta property="og:image:height" content="1500">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ . | absURL }}">
-{{- end }}
-{{- end }}
+{{- /* Pinterest article metadata for Rich Pins */ -}}
+<meta property="article:author" content="GearVault">
+<meta property="og:image:type" content="image/png">
+
 {{- end }}
 
+{{- /* Google Analytics */ -}}
+{{- with site.Params.analytics }}
+{{- with .google }}
+{{- with .gtagID }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{- end }}
+{{- end }}
 {{- end }}

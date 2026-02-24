@@ -68,3 +68,8 @@ paginate = 10
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+# Google Analytics - add your GA4 Measurement ID below
+[params.analytics]
+  [params.analytics.google]
+    # gtagID = "G-XXXXXXXXXX"
