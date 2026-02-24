@@ -10,6 +10,10 @@ tags:
   - "powered speakers"
   - "buying guide"
 description: "The best PA systems under $2,000 for bands, DJs, churches, and events. Complete setups from QSC, JBL, Yamaha, and more."
+cover:
+  image: "/images/pins/pa-systems-01.png"
+  alt: "Best PA Systems Under $2,000"
+  hidden: true
 ShowToc: true
 ---
 

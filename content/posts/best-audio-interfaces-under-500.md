@@ -10,6 +10,10 @@ tags:
   - "recording"
   - "buying guide"
 description: "The best audio interfaces under $500 for home recording. We compare Focusrite, Universal Audio, MOTU, Audient, and more."
+cover:
+  image: "/images/pins/audio-interfaces-01.png"
+  alt: "Best Audio Interfaces Under $500"
+  hidden: true
 ShowToc: true
 ---
 

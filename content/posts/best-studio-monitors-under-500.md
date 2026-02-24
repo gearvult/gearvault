@@ -10,6 +10,10 @@ tags:
   - "mixing"
   - "buying guide"
 description: "The best studio monitors under $500 per pair for home studios. Yamaha, KRK, Adam Audio, JBL, and more compared."
+cover:
+  image: "/images/pins/studio-monitors-01.png"
+  alt: "Best Studio Monitors Under $500"
+  hidden: true
 ShowToc: true
 ---
 

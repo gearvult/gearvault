@@ -10,6 +10,10 @@ tags:
   - "krk"
   - "mixing"
 description: "Yamaha HS8 vs KRK Rokit 8 G4 - a head-to-head comparison for home studio mixing, production, and critical listening."
+cover:
+  image: "/images/pins/studio-monitors-01.png"
+  alt: "Yamaha HS8 vs KRK Rokit 8"
+  hidden: true
 ShowToc: true
 ---
 

@@ -11,6 +11,10 @@ tags:
   - "mbox"
   - "recording"
 description: "Avid MBOX review - the iconic interface is back with USB-C, studio-grade preamps, and seamless Pro Tools integration."
+cover:
+  image: "/images/pins/avid-mbox-01.png"
+  alt: "Avid MBOX Review 2026"
+  hidden: true
 ShowToc: true
 ---
 
