@@ -11,6 +11,8 @@ tags:
   - "gibson"
   - "PRS"
 description: "The best electric guitars under $1,000. Fender Player II, Epiphone Les Paul, PRS SE, Squier, and more reviewed."
+images:
+  - "/images/pins/electric-guitars-01.png"
 cover:
   image: "/images/pins/electric-guitars-01.png"
   alt: "Best Electric Guitars Under $1,000"

@@ -10,6 +10,8 @@ tags:
   - "yamaha"
   - "beginners"
 description: "Roland FP-30X vs Yamaha P-145 - a detailed comparison of the two most popular beginner digital pianos."
+images:
+  - "/images/pins/digital-pianos-01.png"
 cover:
   image: "/images/pins/digital-pianos-01.png"
   alt: "Roland FP-30X vs Yamaha P-145"

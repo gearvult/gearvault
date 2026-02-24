@@ -11,6 +11,8 @@ tags:
   - "recording"
   - "podcasting"
 description: "Shure SM7B vs Rode NT1 5th Gen - a detailed comparison for vocals, podcasting, streaming, and home studio recording."
+images:
+  - "/images/pins/microphones-01.png"
 cover:
   image: "/images/pins/microphones-01.png"
   alt: "Shure SM7B vs Rode NT1"

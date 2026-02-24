@@ -10,6 +10,8 @@ tags:
   - "gibson"
   - "guitar comparison"
 description: "Fender Stratocaster vs Gibson Les Paul - an in-depth comparison of tone, playability, versatility, and value to help you choose the right guitar."
+images:
+  - "/images/pins/fender-vs-gibson-01.png"
 cover:
   image: "/images/pins/fender-vs-gibson-01.png"
   alt: "Fender Stratocaster vs Gibson Les Paul"

@@ -10,6 +10,8 @@ tags:
   - "universal audio"
   - "home studio"
 description: "Focusrite Scarlett 2i2 4th Gen vs Universal Audio Volt 2 - a detailed comparison for beginners and home studios."
+images:
+  - "/images/pins/audio-interfaces-01.png"
 cover:
   image: "/images/pins/audio-interfaces-01.png"
   alt: "Focusrite Scarlett 2i2 vs Universal Audio Volt 2"

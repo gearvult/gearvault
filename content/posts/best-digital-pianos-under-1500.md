@@ -9,6 +9,8 @@ tags:
   - "keyboards"
   - "buying guide"
 description: "The best digital pianos under $1,500 for home, stage, and studio. Roland, Yamaha, Kawai, Nord, and Casio compared."
+images:
+  - "/images/pins/digital-pianos-01.png"
 cover:
   image: "/images/pins/digital-pianos-01.png"
   alt: "Best Digital Pianos Under $1,500"
