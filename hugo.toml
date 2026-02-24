@@ -22,6 +22,10 @@ paginate = 10
     Content = "Expert music gear reviews, comparisons, and buying guides. We help musicians find the right gear at the right price."
 
   [[params.socialIcons]]
+    name = "tiktok"
+    url = "https://www.tiktok.com/@david6188"
+
+  [[params.socialIcons]]
     name = "youtube"
     url = "#"
 
